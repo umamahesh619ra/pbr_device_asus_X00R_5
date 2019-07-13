@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_asus_X00r_5-userdebug
-add_lunch_combo omni_asus_X00r_5-eng
+add_lunch_combo omni_asus_X00R_5-userdebug
+add_lunch_combo omni_asus_X00R_5-eng
