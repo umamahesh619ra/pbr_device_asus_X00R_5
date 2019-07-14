@@ -1,7 +1,7 @@
 TWRP device configuration for Asus Zenfone Lite L1 (ZA551KL)
 =============================
 
-The Asus Zenfone Lite L1 (ZA551KL) (codenamed _"asus_x00r_5"_) is a mid-end smartphone from Asus.
+The Asus Zenfone Lite L1 (ZA551KL) (codenamed _"asus_X00R_5"_) is a mid-end smartphone from Asus.
 
 It was announced and released in oct 2018.
 

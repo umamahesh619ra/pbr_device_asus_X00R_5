@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_asus_x00r_5.mk \
-	$(LOCAL_DIR)/full_asus_x00r_5.mk
+	$(LOCAL_DIR)/omni_asus_X00R_5.mk \
+	$(LOCAL_DIR)/full_asus_X00R_5.mk

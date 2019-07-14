@@ -14,10 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+# Specify phone tech before including full_phone
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
-ifeq ($(TARGET_DEVICE), asus_X00R_5)
+$(call inherit-product, device/asus/asus_X00R_5/full_asus_X00R_5.mk)
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
+# Inherit some common Omni stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
 
-endif
+PRODUCT_NAME := omni_asus_X00R_5

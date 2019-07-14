@@ -14,10 +14,20 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-ifeq ($(TARGET_DEVICE), asus_X00R_5)
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
+# Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
 
-endif
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := asus_X00R_5
+PRODUCT_NAME := full_asus_X00R_5
+PRODUCT_BRAND := Asus
+PRODUCT_MODEL := Asus Zenfone lite L1
+PRODUCT_MANUFACTURER := Asus
